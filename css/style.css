@@ -128,7 +128,9 @@ body{
 .ratingbtn-wrapper {
 	display: flex;
 	margin: 1.5rem 0;
-    justify-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 .ratingbtn-wrapper .rating-btn {
 	border-radius: 50%;
@@ -206,8 +208,7 @@ body{
 /* responsive breakpoint */
 @media (max-width: 375px){
     .ratingbtn-wrapper .rating-btn {
-        width: 35px;
-        height: 35px;
+        margin-top: 1rem;
       }
     
 }
